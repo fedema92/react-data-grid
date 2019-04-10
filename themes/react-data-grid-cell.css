@@ -11,7 +11,7 @@
 
 .rdg-selected-range {
   border: 1px solid #66afe9;
-  background-color: #66afe930;
+  
 }
 
 .moving-element {
@@ -47,7 +47,7 @@
 }
 
 .react-grid-Cell.readonly {
-  background-color : black;
+  
 }
 
 
@@ -56,7 +56,7 @@
 }
 
 .react-grid-cell .form-control-feedback {
-  color: #a94442;
+  
   position: absolute;
   top: 0px;
   right: 10px;
@@ -67,7 +67,7 @@
 }
 
 .react-grid-Row.row-selected .react-grid-Cell{
- background-color: #DBECFA;
+ 
 }
 
 .react-grid-Cell.editing {
@@ -94,8 +94,6 @@
     white-space: normal;
     visibility: hidden;
     width: 150px;
-    background-color: black;
-    color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -183,7 +181,6 @@
   font-size: 12px;
   text-align:center;
   line-height:19px;
-  color: grey;
   height:20px;
   width:20px;
   position:absolute;
@@ -247,7 +244,6 @@
   padding: 5px 0;
   text-align: left;
   list-style: none;
-  background-color: #fff;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 1px solid #ccc;

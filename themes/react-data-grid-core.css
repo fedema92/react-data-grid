@@ -5,16 +5,14 @@
 }
 
 .react-grid-Main {
-  background-color: #ffffff;
   color: inherit;
   padding: 0px;
-  outline: 1px solid #e7eaec;
+  outline: 1px solid ;
   clear : both;
 }
 
 .react-grid-Grid {
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
