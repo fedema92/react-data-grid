@@ -58,7 +58,6 @@
 
 .daterangepicker .daterangepicker_start_input label,
 .daterangepicker .daterangepicker_end_input label {
-  color: #333;
   display: block;
   font-size: 11px;
   font-weight: normal;
@@ -77,7 +76,6 @@
 .daterangepicker .ranges .input-mini {
   border: 1px solid #ccc;
   border-radius: 4px;
-  color: #555;
   display: block;
   font-size: 11px;
   height: 30px;
@@ -96,9 +94,8 @@
 
 .daterangepicker .ranges li {
   font-size: 13px;
-  background: #f5f5f5;
+
   border: 1px solid #f5f5f5;
-  color: #08c;
   padding: 3px 12px;
   margin-bottom: 8px;
   -webkit-border-radius: 5px;
@@ -108,16 +105,14 @@
 }
 
 .daterangepicker .ranges li.active, .daterangepicker .ranges li:hover {
-  background: #08c;
+
   border: 1px solid #08c;
-  color: #fff;
 }
 
 .daterangepicker .calendar-date {
-  border: 1px solid #ddd;
+  border: 1px solid;
   padding: 4px;
   border-radius: 4px;
-  background: #fff;
 }
 
 .daterangepicker .calendar-time {
@@ -128,7 +123,6 @@
 
 .daterangepicker {
   position: absolute;
-  background: #fff;
   top: 100px;
   left: 20px;
   padding: 4px;
@@ -146,7 +140,6 @@
   border-right: 7px solid transparent;
   border-bottom: 7px solid #ccc;
   border-left: 7px solid transparent;
-  border-bottom-color: rgba(0, 0, 0, 0.2);
   content: '';
 }
 
@@ -169,7 +162,6 @@
   border-right: 7px solid transparent;
   border-bottom: 7px solid #ccc;
   border-left: 7px solid transparent;
-  border-bottom-color: rgba(0, 0, 0, 0.2);
   content: '';
 }
 
@@ -200,20 +192,9 @@
   white-space: nowrap;
 }
 
-.daterangepicker td.off {
-  color: #999;
-}
 
-.daterangepicker td.disabled {
-  color: #999;
-}
-
-.daterangepicker td.available:hover, .daterangepicker th.available:hover {
-  background: #eee;
-}
 
 .daterangepicker td.in-range {
-  background: #ebf4f8;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -237,15 +218,9 @@
   border-radius: 4px !important;
 }
 
-.daterangepicker td.active, .daterangepicker td.active:hover {
-  background-color: #357ebd;
-  border-color: #3071a9;
-  color: #fff;
-}
 
 .daterangepicker td.week, .daterangepicker th.week {
   font-size: 80%;
-  color: #ccc;
 }
 
 .daterangepicker select.monthselect, .daterangepicker select.yearselect {

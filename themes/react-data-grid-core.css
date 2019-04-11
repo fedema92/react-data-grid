@@ -5,7 +5,6 @@
 }
 
 .react-grid-Main {
-  color: inherit;
   padding: 0px;
   outline: 1px solid ;
   clear : both;
@@ -21,6 +20,3 @@
   user-select: none;
 }
 
-.react-grid-Canvas {
-  background-color: #ffffff;
-}

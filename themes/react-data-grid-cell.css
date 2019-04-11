@@ -46,14 +46,6 @@
   height: inherit;
 }
 
-.react-grid-Cell.readonly {
-  
-}
-
-
-.react-grid-Cell:hover {
-  background: #eee;
-}
 
 .react-grid-cell .form-control-feedback {
   
@@ -140,7 +132,6 @@
 .rdg-child-row-action-cross:before, rdg-child-row-action-cross:after, .rdg-child-row-action-cross-last:before, rdg-child-row-action-cross-last:after {
   content: "";
   position: absolute;
-  background: grey;
   height: 50%;
 }
 
@@ -162,19 +153,15 @@
   width: 15px;
   content: "";
   position: absolute;
-  background: grey;
 }
 
-.rdg-child-row-action-cross:hover {
-    background: red;
-}
 .rdg-child-row-btn {
    position:absolute;
    cursor:pointer;
    border:1px solid grey;
    border-radius:14px;
    z-index: 2;
-   background: white;
+  
 }
 
 .rdg-child-row-btn div {
@@ -190,19 +177,6 @@
   margin-left:-10px;
 
 }
-
-.rdg-empty-child-row:hover .glyphicon-plus-sign {
-  color: green;
-}
-
-.rdg-empty-child-row:hover a {
-  color: green;
-}
-
-.rdg-child-row-btn .glyphicon-remove-sign:hover {
-  color: red;
-}
-
 .last-column .cell-tooltip-text{
   right: 100%;
   left: 0% !important;
@@ -223,7 +197,6 @@
   text-align: center;
   position: relative;
   display: table;
-  color: #4a9de2;
 }
 
 .rdg-cell-action-button > span {
@@ -231,9 +204,7 @@
   vertical-align: middle;
 }
 
-.rdg-cell-action-button:hover, .rdg-cell-action-button-toggled {
-  color: #447bbb;
-}
+
 
 .rdg-cell-action-menu {
   position: absolute;
@@ -256,12 +227,9 @@
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #333;
   white-space: nowrap;
 }
 
 .rdg-cell-action-menu > span:hover {
-  color: #262626;
   text-decoration: none;
-  background-color: #f5f5f5;
 }

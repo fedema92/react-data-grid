@@ -1,0 +1,6 @@
+git pull
+modifica css
+push
+npm install
+npm run build
+caricare su npm 
