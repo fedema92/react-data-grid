@@ -6,12 +6,10 @@
 
 .react-grid-Main {
   padding: 0px;
-  outline: 1px solid ;
   clear : both;
 }
 
 .react-grid-Grid {
-  border: 1px solid;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
